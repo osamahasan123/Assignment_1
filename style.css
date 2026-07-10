@@ -7,8 +7,8 @@
     background-color: rgb(4, 33, 248);
     padding: 10px 25px;
     border-radius: 15px;
-    font-weight: regular;
-    front-size: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
     color: #ebe5e5;
     outline: none;
     border: none;
@@ -31,4 +31,30 @@ a{
     text-decoration: none;
     color: black;
     margin-left: 1rem;
+}
+
+.banner{
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    background-image: url(./assets/banner.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    padding: 6rem;
+    background-color: rgba(13, 33, 14, 0.5);
+    background-blend-mode: overlay;
+}
+.bannerTop{
+    margin-bottom: 25rem;
+}
+.bannerHeadLine{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.BannerP{
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
