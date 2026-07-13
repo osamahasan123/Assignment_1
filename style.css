@@ -18,7 +18,7 @@
 .container{
     max-width: 1320px;
     margin: 0 auto;
-    display: flex;
+    
     
 }
 
@@ -67,22 +67,152 @@ a{
     margin-bottom: 10rem;
 }
 
-.card{
+.bcard{
     border-radius: 1rem;
     overflow: hidden;  
     box-shadow: 0 4px 10px rgba(0,0,0,0.9);
+    
 }
-.card img{
+.bcard img{
     width: 100%;
 }
-.card div{
+.bcard div{
     padding: 2rem;
     display: grid;
     row-gap: 1rem;
 }
-.card div a{
+.bcard div a{
     color: blue;
 }
-.card div p{
+.bcard div p{
     color: rgb(75, 75, 78);
+}
+
+.package{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.package button{
+    margin-top: 2rem;
+}
+.pCard{
+    border-radius: 1rem;
+    overflow: hidden;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.9);
+    padding: 2rem;
+
+}
+.pcard2{
+    background-color: black;
+    color: white;
+}
+
+
+/* Sponsors Section */
+
+.sponsors{
+    padding:80px 10%;
+    background:#0f172a;
+    text-align:center;
+}
+
+.sponsors h2{
+    color:#ffffff;
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.sponsors p{
+    color:#cbd5e1;
+    margin-bottom:50px;
+}
+
+.sponsor-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:220px;
+    padding:30px 20px;
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+.card h3{
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+.card span{
+    color:#94a3b8;
+    font-size:15px;
+}
+
+/* Footer */
+
+.footer{
+    background:#0f172a;
+    padding:40px 10%;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo h2{
+    color:#fff;
+    font-size:28px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    background:#1e293b;
+    color:#fff;
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#38bdf8;
+    color:#000;
+}
+
+.footer hr{
+    margin:30px 0 20px;
+    border:none;
+    border-top:1px solid #334155;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#94a3b8;
+    font-size:15px;
 }

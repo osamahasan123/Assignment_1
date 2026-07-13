@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <header>
@@ -46,7 +47,7 @@
             <h1 style="text-align: center; font-size: 3rem; margin: 2rem 0;">Meet the speakers</h1>
             <div class="cardContainer container">
                 <!-- speeekar 1 -->
-                <div class="card">
+                <div class="bcard">
                      <img src="./assets/andrej.png" alt="">
                      <div>
                         <a href="">AI/ ML</a>
@@ -57,7 +58,7 @@
                 </div>
 
                 <!-- speeekar 2 -->
-                <div class="card">
+                <div class="bcard">
                     <img src="./assets/demis.png" alt="">
                     <div>
                         <a href="">cloud & DevOps</a>
@@ -68,10 +69,10 @@
                 </div>
 
                 <!-- speeekar 3 -->
-                <div class="card">
+                <div class="bcard">
                     <img src="./assets/gary.png" alt="">
                     <div>
-                        <a href="Frontend"></a>
+                        <a href="">Frontend</a>
                     <h2>Gary Marcus</h2>
                     <p>Staff Engineer, Verce</p>
                     </div>
@@ -79,7 +80,7 @@
                 </div>
                 
                 <!-- speeekar 4 -->
-                <div class="card">
+                <div class="bcard">
                     <img src="./assets/mustafa.png" alt="">
                     <div>
                          <a href="">Security</a>
@@ -90,12 +91,17 @@
                 </div>
             </div>
          </section>
-         <section>
-            <div>
-                <h2>Secure Your Spot</h2>
+         <section class="container">
+            <div style="margin-bottom: 2rem ; text-align: center;"> 
+                <h2 style="text-align: center; font-size: 3rem;">Secure Your Spot</h2>
                 <p>Early-bird pricing ends August 15, 2026.</p>
-                <div>
-                    <div>
+
+            </div>
+           
+            <div class="package">
+                
+                <div class="pCard">
+                    <div >
                         <p>STANDARD</p>
                         <h3>$399</h3>
                         <p>Per person</p>
@@ -111,7 +117,7 @@
                     </div>
                     
                 </div>
-                <div>
+                <div class="pCard pcard2">
                         <p>STANDARD</p>
                         <h3>$399</h3>
                         <p>Per person</p>
@@ -125,7 +131,7 @@
                             <button class="comon-btn">Get Rro</button>
                          </ul>
                     </div>
-                <div>
+                <div class="pCard">
                         <p>Team</p>
                         <h3>$5,999</h3>
                         <p>up to 10 people</p>
@@ -142,26 +148,70 @@
             </div>
 
          </section>
-         <section>
-            <f1>Frequently Asked Questions</f1>
-            <p>Got questions? We've got answers</p>
-            <div>
-                <di>Is the conference suitable for beginners?</di>
-                <p>Yes! While some tracks are advanced, we have dedicated sessions and tracks tailored for junior developers and students.</p>
-            </div>
-            <div>
-                <h3>Will the sessions be recorded?</h3>
-                <p>Yes, all sessions are recorded. Pro and Team pass holders get lifetime access, while Standard holders get 30 days access.</p>
-              </div>
-              <div>
-                <h3>Can I get a refund if I cannot attend?</h3>
-                <p>Full refunds are available up to 14 days before the event starts. After that, you can transfer your ticket to someone else.</p>
+         <!-- ================= Sponsors Section ================= -->
+<!-- Sponsors Section -->
+<section class="sponsors">
 
-              </div>
+    <h2>Our Sponsors</h2>
+    <p>Trusted by the world's leading technology companies.</p>
 
-         </section>
+    <div class="sponsor-container">
+
+        <div class="card">
+            <h3>Google</h3>
+            <span>Innovation Partner</span>
+        </div>
+
+        <div class="card">
+            <h3>Microsoft</h3>
+            <span>Cloud Partner</span>
+        </div>
+
+        <div class="card">
+            <h3>GitHub</h3>
+            <span>Developer Partner</span>
+        </div>
+
+        <div class="card">
+            <h3>OpenAI</h3>
+            <span>AI Innovation Partner</span>
+        </div>
+
+    </div>
+
+</section>
+
     </main>
-    <footer></footer>
+    <footer>
+        <!-- Footer Start -->
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            <h2>DevConf 2026</h2>
+        </div>
+
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 DevConf. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+<!-- Footer End -->
+    </footer>
 </body>
 </html>
 
